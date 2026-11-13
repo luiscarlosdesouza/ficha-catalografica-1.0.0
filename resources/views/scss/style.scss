@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/bootstrap";
+
+.forms-container{
+    border:1px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border-color: #A9A9A9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.header{
+    background-color: #E0E0D8;
+}
+
+.header-title{
+    font-size: x-large;
+}
+
+.header-subtitle{
+    font-size: large;
+}
+
+#table-wrapper {
+    position:relative;
+  }
+#table-scroll {
+    overflow:auto;  
+    margin-top:20px;
+  }
+  #table-wrapper table {
+    width: 100%;
+      
+  }
+
+td:last-child{background-color: lightgray;}
+th:last-child{background-color: lightgray;}
